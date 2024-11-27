@@ -46,7 +46,7 @@ export const AgeForm = () => {
             <div className="flex flex-col max-w-16 lg:max-w-28 space-y-1">
                 <label className="font-semibold text-m-smokey-grey tracking-wide text-sm" htmlFor="">DAY</label>
                 <input
-                    className="border outline-none border-m-off black text-xl md:text-2xl rounded p-2 md:p-3 placeholder:font-bold font-bold text-m-off-black" 
+                    className="border outline-none border-m-off black text-xl md:text-2xl rounded p-2 md:p-3 placeholder:font-bold font-bold text-m-off-black placeholder:text-lg placeholder:md:text-xl" 
                     name="day"
                     type="text" 
                     value={mDate.day}
@@ -58,7 +58,7 @@ export const AgeForm = () => {
             <div className="flex flex-col max-w-16 lg:max-w-28 space-y-1">
                 <label className="font-semibold text-m-smokey-grey tracking-wide text-sm" htmlFor="">MONTH</label>
                 <input
-                    className="border outline-none border-m-off black text-xl md:text-2xl rounded p-2 md:p-3 placeholder:font-bold font-bold text-m-off-black" 
+                    className="border outline-none border-m-off black text-xl md:text-2xl rounded p-2 md:p-3 placeholder:font-bold font-bold text-m-off-black placeholder:text-lg placeholder:md:text-xl" 
                     name="month"
                     type="text" 
                     value={mDate.month}
@@ -70,7 +70,7 @@ export const AgeForm = () => {
             <div className="flex flex-col max-w-16 lg:max-w-28 space-y-1">
                 <label className="font-semibold text-m-smokey-grey tracking-wide text-sm" htmlFor="">YEAR</label>
                 <input
-                    className="border outline-none border-m-off black text-xl md:text-2xl rounded p-2 md:p-3 placeholder:font-bold font-bold text-m-off-black" 
+                    className="border outline-none border-m-off black text-xl md:text-2xl rounded p-2 md:p-3 placeholder:font-bold font-bold text-m-off-black placeholder:text-lg placeholder:md:text-xl" 
                     name="year"
                     type="text" 
                     value={mDate.year}
@@ -88,7 +88,7 @@ export const AgeForm = () => {
                 className="bg-m-purple inline-block p-2 md:p-4 rounded-full absolute -right-8 -bottom-9 cursor-pointer transition-all duration-200 active:bg-m-off-black"
                 onClick={() => handleCalc()}
                 >
-                <img src="../assets/images/icon-arrow.svg" alt="icon arrow" />
+                <img src="/images/icon-arrow.svg" alt="icon arrow" />
             </div>
         </div>
 
